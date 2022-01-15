@@ -126,16 +126,18 @@ footer{
     color: blanchedalmond;
     text-align: center;
     margin-top: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 20px; }
 /* footer style end */
 
 
-/* * midea quary start * */
-@media (max-width: 688px) {
+/* /* * midea quary start *  */
+
+
+@media only screen and (max-width: 688px) {
     
-     .manu{
-display: none;
-     }
+    
+.manu{
+display: none;}
     .frist-part{
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -259,4 +261,3 @@ display: none;
 }
 }
 
-}
